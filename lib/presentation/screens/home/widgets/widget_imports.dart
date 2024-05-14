@@ -1,0 +1,13 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:feather_icons/feather_icons.dart';
+import 'package:flutter/material.dart';
+import '../../../../presentation/screens/home/movie_details/movie_details_imports.dart';
+import '../../../../router/app_router.dart';
+import '../../../../router/router_imports.dart';
+import '../../../../utils/enums.dart';
+import '../../../../data/data_sources/remote/api_constant.dart';
+import '../../../../data/models/movie_model.dart';
+import '../../../../core/constants/app_color.dart';
+part 'search_field.dart';
+part '../tiles/movie_grid_tile.dart';
+part 'grid_placeholder_widget.dart';

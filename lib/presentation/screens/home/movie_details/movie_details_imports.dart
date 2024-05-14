@@ -1,0 +1,16 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:tmdb_movie/core/constants/app_color.dart';
+import 'package:tmdb_movie/router/app_router.dart';
+import 'package:tmdb_movie/router/router_imports.dart';
+import '../../../../data/data_sources/remote/api_constant.dart';
+import '../../../../data/repositories/movie_details_repo.dart';
+import 'package:tmdb_movie/utils/enums.dart';
+import '../../../../data/models/movie_model.dart';
+import '../../../widgets/widgets_imports.dart';
+import '../widgets/widget_imports.dart';
+import 'movie_details_model.dart';
+import 'widgets/widget_imports.dart';
+part 'movie_details.dart';
+part 'movie_details_view_model.dart';
