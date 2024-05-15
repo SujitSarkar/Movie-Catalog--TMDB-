@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:tmdb_movie/core/theme/app_theme.dart';
-import 'package:tmdb_movie/router/app_router.dart';
+import 'package:tmdb_movie/core/router/app_router.dart';
 import 'core/constants/app_string.dart';
-import 'router/router_imports.dart';
+import 'core/router/router_imports.dart';
 
 void main() {
   runApp(const MyApp());
