@@ -19,8 +19,9 @@ class MovieDetailsDateGenreSection extends StatelessWidget {
               style: Theme.of(context).textTheme.bodyLarge,
             ),
             Text(
-              DateFormat('MMM dd, yyyy')
-                  .format(model.releaseDate ?? DateTime.now()),
+              model.releaseDate != null
+                  ? DateFormat('MMM dd, yyyy').format(model.releaseDate!)
+                  : 'N/A',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: AppColors.hintColor, fontWeight: FontWeight.bold),
             ),

@@ -92,7 +92,7 @@ class _MovieDetailsState extends State<MovieDetails> {
                             Text(
                               movieDetailsViewModel
                                       .movieDetails.value?.overview ??
-                                  '',
+                                  'Not found',
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium

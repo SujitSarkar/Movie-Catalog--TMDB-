@@ -26,7 +26,7 @@ class MovieDetailsTitleSection extends StatelessWidget {
               size: 18,
             ),
             Text(
-              '${model.voteAverage ?? "0.0"} (IMDB)',
+              '${model.voteAverage ?? "Not found"} (IMDB)',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: AppColors.hintColor, fontWeight: FontWeight.bold),
             ).paddingSymmetric(horizontal: 6),
