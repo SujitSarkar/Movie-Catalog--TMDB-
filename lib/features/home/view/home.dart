@@ -37,13 +37,13 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: Scaffold(
+    return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          const SizedBox(height: 56),
           Text(
-            'Find Moview, Tv Series,\nand more..',
+            'Find Movies, Tv Series,\nand more..',
             style: Theme.of(context).textTheme.headlineSmall,
           ).paddingSymmetric(horizontal: 16, vertical: 16),
           SearchField(
@@ -88,6 +88,6 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           ))
         ],
       ),
-    ));
+    );
   }
 }
