@@ -9,7 +9,7 @@ class PosterMaskWidget extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        height: 300,
+        height: MediaQuery.of(context).size.height * .55,
         width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
