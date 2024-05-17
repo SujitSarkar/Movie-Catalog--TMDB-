@@ -9,6 +9,7 @@ class MovieDetailsTitleSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        //Title
         Text(
           model.title ?? "Not Found",
           style: Theme.of(context)
@@ -25,6 +26,7 @@ class MovieDetailsTitleSection extends StatelessWidget {
               color: AppColors.hintColor,
               size: 18,
             ),
+            //Rating
             Text(
               '${model.voteAverage ?? "Not found"} (IMDB)',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
@@ -37,6 +39,7 @@ class MovieDetailsTitleSection extends StatelessWidget {
                 color: AppColors.hintColor,
                 size: 18,
               ),
+            //Duration
             if (model.runtime != null)
               Text(
                 '${model.runtime} minutes',
