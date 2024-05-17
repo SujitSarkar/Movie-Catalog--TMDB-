@@ -76,7 +76,8 @@ class SearchField extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(50)),
             borderSide: BorderSide.none),
         isDense: true,
-        contentPadding: contentPadding ?? const EdgeInsets.all(16),
+        contentPadding: contentPadding ??
+            const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         floatingLabelAlignment: FloatingLabelAlignment.start,
         hintText: hintText,
         floatingLabelBehavior: FloatingLabelBehavior.auto,
