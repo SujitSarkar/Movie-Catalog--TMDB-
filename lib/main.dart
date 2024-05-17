@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: AppString.appName,
+      debugShowCheckedModeBanner: false,
       navigatorKey: AppNavigatorKey.key,
       theme: AppThemes.darkTheme,
       initialRoute: AppRouter.initializer,

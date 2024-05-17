@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import '../../../features/movie_details/movie_details_model.dart';
+import '../../../features/movie_details/model/movie_details_model.dart';
 import '../data_sources/remote/api_endpoint_url.dart';
 import '../data_sources/remote/remote_imports.dart';
 import '../models/movie_model.dart';

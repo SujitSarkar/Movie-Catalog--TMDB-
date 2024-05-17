@@ -1,4 +1,8 @@
-part of 'bottom_nav_imports.dart';
+import 'package:feather_icons/feather_icons.dart';
+import 'package:flutter/material.dart';
+import '../../core/constants/app_color.dart';
+import '../account/account_imports.dart';
+import '../home/view/home.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});

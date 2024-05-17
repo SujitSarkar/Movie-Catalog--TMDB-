@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../features/bottom_nav/bottom_nav_imports.dart';
-import '../../features/movie_details/movie_details_imports.dart';
-import '../../features/search/search_imports.dart';
+import '../../features/bottom_nav/bottom_nav.dart';
+import '../../features/movie_details/view/movie_details.dart';
+import '../../features/search/view/search.dart';
 import 'app_router.dart';
 
 part 'app_router_settings.dart';
