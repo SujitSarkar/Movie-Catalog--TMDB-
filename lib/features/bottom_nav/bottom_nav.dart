@@ -2,7 +2,7 @@ import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import '../../core/constants/app_color.dart';
 import '../account/account_imports.dart';
-import '../home/view/home.dart';
+import '../home/view/home_with_sliver.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
@@ -18,7 +18,7 @@ class _BottomNavState extends State<BottomNav> {
     BottomNavigationBarItem(icon: Icon(FeatherIcons.user), label: 'Account'),
   ];
 
-  List<Widget> pages = const [Home(), Account()];
+  List<Widget> pages = const [HomeWithSliver(), Account()];
 
   @override
   Widget build(BuildContext context) {

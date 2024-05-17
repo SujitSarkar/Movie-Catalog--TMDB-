@@ -21,10 +21,22 @@ class GeneratedRoute {
                 movieType: args.movieType,
               );
             });
-      case AppRouter.search:
+
+      case AppRouter.playMovie:
         return PageRouteBuilder(
             settings: settings,
             transitionsBuilder: slideTransition,
+            pageBuilder: (_, animation, secondaryAnimation) {
+              final args = settings.arguments as PlayMovie;
+              return PlayMovie(
+                url: args.url,
+              );
+            });
+
+      case AppRouter.search:
+        return PageRouteBuilder(
+            settings: settings,
+            transitionsBuilder: fadeTransition,
             pageBuilder: (_, animation, secondaryAnimation) => const Search());
 
       default:
