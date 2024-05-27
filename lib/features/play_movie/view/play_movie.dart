@@ -34,8 +34,7 @@ class PlayMovie extends StatelessWidget {
   Obx _bodyUI(PlayViewModel playViewModel) => Obx(() => Stack(
         alignment: Alignment.center,
         children: [
-          Column(
-              children: [
+          Column(children: [
             if (playViewModel.progress.value != 1.0 &&
                 playViewModel.reloading.value == false)
               LinearProgressIndicator(
@@ -71,8 +70,7 @@ class PlayMovie extends StatelessWidget {
                 },
               ),
             )
-            // ignore: unnecessary_null_comparison
-          ].where((Object o) => o != null).toList()),
+          ]),
         ],
       ));
 }
